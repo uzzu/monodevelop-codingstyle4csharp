@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PolicySet name="CodingStyleForCSharp">
+  <TextStylePolicy inheritsSet="Mono" inheritsScope="text/plain" scope="text/plain">
+    <FileWidth>120</FileWidth>
+    <TabWidth>4</TabWidth>
+    <RemoveTrailingWhitespace>True</RemoveTrailingWhitespace>
+  </TextStylePolicy>
+  <TextStylePolicy inheritsSet="null" scope="text/x-csharp" />
+  <CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp">
+    <IndentSwitchBody>True</IndentSwitchBody>
+    <AnonymousMethodBraceStyle>NextLine</AnonymousMethodBraceStyle>
+    <PropertyBraceStyle>NextLine</PropertyBraceStyle>
+    <PropertyGetBraceStyle>NextLine</PropertyGetBraceStyle>
+    <PropertySetBraceStyle>NextLine</PropertySetBraceStyle>
+    <EventBraceStyle>NextLine</EventBraceStyle>
+    <EventAddBraceStyle>NextLine</EventAddBraceStyle>
+    <EventRemoveBraceStyle>NextLine</EventRemoveBraceStyle>
+    <StatementBraceStyle>NextLine</StatementBraceStyle>
+    <IfElseBraceForcement>AddBraces</IfElseBraceForcement>
+    <ForBraceForcement>AddBraces</ForBraceForcement>
+    <WhileBraceForcement>AddBraces</WhileBraceForcement>
+    <UsingBraceForcement>AddBraces</UsingBraceForcement>
+    <FixedBraceForcement>AddBraces</FixedBraceForcement>
+    <PlaceElseOnNewLine>True</PlaceElseOnNewLine>
+    <PlaceCatchOnNewLine>True</PlaceCatchOnNewLine>
+    <PlaceFinallyOnNewLine>True</PlaceFinallyOnNewLine>
+    <PlaceWhileOnNewLine>True</PlaceWhileOnNewLine>
+    <PlaceArrayInitializersOnNewLine>AlwaysNewLine</PlaceArrayInitializersOnNewLine>
+    <BeforeMethodDeclarationParentheses>False</BeforeMethodDeclarationParentheses>
+    <BeforeMethodCallParentheses>False</BeforeMethodCallParentheses>
+    <BeforeConstructorDeclarationParentheses>False</BeforeConstructorDeclarationParentheses>
+    <BeforeIndexerDeclarationBracket>False</BeforeIndexerDeclarationBracket>
+    <BeforeDelegateDeclarationParentheses>False</BeforeDelegateDeclarationParentheses>
+    <NewParentheses>False</NewParentheses>
+    <SpacesBeforeBrackets>False</SpacesBeforeBrackets>
+    <SpacesAfterTypecast>True</SpacesAfterTypecast>
+  </CSharpFormattingPolicy>
+</PolicySet>
