@@ -5,7 +5,11 @@
     <TabWidth>4</TabWidth>
     <RemoveTrailingWhitespace>True</RemoveTrailingWhitespace>
   </TextStylePolicy>
-  <TextStylePolicy inheritsSet="null" scope="text/x-csharp" />
+  <TextStylePolicy inheritsSet="Mono" inheritsScope="text/plain" scope="text/x-csharp">
+    <FileWidth>120</FileWidth>
+    <TabWidth>4</TabWidth>
+    <RemoveTrailingWhitespace>True</RemoveTrailingWhitespace>
+  </TextStylePolicy>
   <CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp">
     <IndentSwitchBody>True</IndentSwitchBody>
     <AnonymousMethodBraceStyle>NextLine</AnonymousMethodBraceStyle>
