@@ -29,7 +29,7 @@ CodingStyleForCSharp.mdpolicyをImportして使ってください。
 # Settings
 * ハードタブ
 * ブロック構文は改行且つインデント、但しプロパティ宣言時のGet, Set及びイベント宣言時のAdd, Removeは1行記述を許容
-* and more...(詳しくはCode exampleを参考にしてください)
+* and more...(詳しくはCode examplesを参考にしてください)
 
 ## Code examples
 * フォーマット例はEdit Profileで閲覧が可能ですが、一例をここに記載します。
