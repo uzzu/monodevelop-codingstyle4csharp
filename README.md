@@ -6,7 +6,7 @@ MonoDevelopではコードフォーマッターの設定はExport、Importでき
 しかしながらデフォルトのコードフォーマッターの設定がなんだかC#っぽくないので、設定を修正してExportしました。  
 CodingStyleForCSharp.mdpolicyをImportして使ってください。  
 
-# How To Import?
+# How to import?
 1. ``MonoDevelop(Unityの場合はMonoDevelop-Unity) -> Custom Policies...``でMonoDevelopオプションを開く
 2. 右上のボタンの``Add Policy -> From file...``でCodingStyleForCSharp.mdpolicyを開く
 3. 右上のボタンの``Export -> To project or solution...``で、設定を取り込みたいソリューション(プロジェクト)を選択する
@@ -18,7 +18,7 @@ CodingStyleForCSharp.mdpolicyをImportして使ってください。
     * XMLドキュメント
 6. フォーマッタを適用してみる。適用されてるのを確認しましょう。適用されていたら終わりです。お疲れ様でした。
 
-# How To Export?
+# How to export?
 1. ``MonoDevelop(Unityの場合はMonoDevelop-Unity) -> Custom Policies...``でMonoDevelopオプションを開く
 2. 右上のボタンの``Add Policy -> From project or solution...``で、設定内容をExportしたいソリューション(プロジェクト)を選択する
 3. 右上のボタンの``Export -> To file...``でファイル名指定してExportします。お疲れ様でした。
@@ -26,8 +26,9 @@ CodingStyleForCSharp.mdpolicyをImportして使ってください。
 # Settings
 * ハードタブ
 * ブロック構文は改行且つインデント、但しプロパティ宣言時のGet, Set及びイベント宣言時のAdd, Removeは1行記述を許容
+* and more...(詳しくはCode exampleを参考にしてください)
 
-## Code Examples
+## Code examples
 * フォーマット例はEdit Profileで閲覧が可能ですが、一例をここに記載します。
 
 ### Blank lines
