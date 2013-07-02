@@ -4,11 +4,13 @@
     <FileWidth>120</FileWidth>
     <TabWidth>4</TabWidth>
     <RemoveTrailingWhitespace>True</RemoveTrailingWhitespace>
+    <EolMarker>Unix</EolMarker>
   </TextStylePolicy>
   <TextStylePolicy inheritsSet="Mono" inheritsScope="text/plain" scope="text/x-csharp">
     <FileWidth>120</FileWidth>
     <TabWidth>4</TabWidth>
     <RemoveTrailingWhitespace>True</RemoveTrailingWhitespace>
+    <EolMarker>Unix</EolMarker>
   </TextStylePolicy>
   <CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp">
     <IndentSwitchBody>True</IndentSwitchBody>
