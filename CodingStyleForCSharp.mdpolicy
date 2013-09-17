@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PolicySet name="CodingStyleForCSharp">
+  <TextStylePolicy inheritsSet="Mono" inheritsScope="text/plain" scope="text/plain">
+    <FileWidth>120</FileWidth>
+    <TabWidth>4</TabWidth>
+    <RemoveTrailingWhitespace>True</RemoveTrailingWhitespace>
+    <EolMarker>Unix</EolMarker>
+  </TextStylePolicy>
   <TextStylePolicy inheritsSet="Mono" inheritsScope="text/plain" scope="text/x-csharp">
     <FileWidth>120</FileWidth>
     <TabWidth>4</TabWidth>
@@ -36,26 +42,4 @@
     <SpacesBeforeBrackets>False</SpacesBeforeBrackets>
     <SpacesAfterTypecast>True</SpacesAfterTypecast>
   </CSharpFormattingPolicy>
-  <TextStylePolicy inheritsSet="Mono" inheritsScope="text/plain" scope="text/plain">
-    <FileWidth>120</FileWidth>
-    <TabWidth>4</TabWidth>
-    <RemoveTrailingWhitespace>True</RemoveTrailingWhitespace>
-    <EolMarker>Unix</EolMarker>
-  </TextStylePolicy>
-  <DotNetNamingPolicy>
-    <DirectoryNamespaceAssociation>None</DirectoryNamespaceAssociation>
-    <ResourceNamePolicy>FileFormatDefault</ResourceNamePolicy>
-  </DotNetNamingPolicy>
-  <TextStylePolicy inheritsSet="null" scope="text/x-shader" />
-  <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-unitytxt">
-    <FileWidth>120</FileWidth>
-    <RemoveTrailingWhitespace>True</RemoveTrailingWhitespace>
-    <EolMarker>Unix</EolMarker>
-  </TextStylePolicy>
-  <TextStylePolicy inheritsSet="null" scope="application/xml" />
-  <XmlFormattingPolicy inheritsSet="Mono" inheritsScope="application/xml" scope="application/xml" />
-  <StandardHeader>
-    <Text />
-    <IncludeInNewFiles>True</IncludeInNewFiles>
-  </StandardHeader>
 </PolicySet>
